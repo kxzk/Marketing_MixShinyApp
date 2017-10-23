@@ -1,1 +1,1 @@
-# K-Order Marketing Mix Attribution Model
+# K-Order Markov Marketing Mix Attribution Model
