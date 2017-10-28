@@ -7,6 +7,11 @@ body  <- dashboardBody(
   tabItems(
     tabItem("Inputs",
       fluidRow(
+        valueBoxOutput("totalConv"),
+        valueBoxOutput("totalConvValue")
+      ),
+
+      fluidRow(
         column(width = 12,
           box(title = "Input Data", width = NULL, solidHeader = TRUE,
               status = "danger",
